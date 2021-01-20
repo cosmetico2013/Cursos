@@ -1,0 +1,28 @@
+.menu{
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100px;
+    height: 40%;
+    text-align: center;
+    position: fixed;
+    top: 30%;
+}
+
+img{
+    width: 90px;
+    height: 100px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.cuerpo {
+    background-color: rgb(117, 231, 88);
+    margin: 100px auto;
+    position: relative;
+    height: 600px;
+    width: 80%;
+}
