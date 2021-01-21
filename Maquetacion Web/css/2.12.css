@@ -1,0 +1,173 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+body{
+    margin-top: 0px;
+}
+
+nav {
+    background-color: rgb(14, 14, 110);
+    color: rgb(255, 41, 158);
+    position: -webkit-sticky;
+    position: sticky;
+    font-size: 1.5em;
+    top: 0px;
+    padding: 10px;
+    z-index: 100;
+    max-width: 1200px;
+    min-width: 576px;
+    margin:0px auto;
+}
+
+nav div{
+    display: inline-block;
+    padding: 10px;
+}
+
+.cuerpo{
+    max-width: 1200px;
+    min-width: 576px;
+    margin:0px auto;
+}
+
+.imagen img{
+    opacity: 0.7;
+    width: 100%;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+.comprar {
+    background-color: rgb(14, 14, 110);
+    border-radius: 20px;
+    color: rgb(255, 41, 158);
+    padding: 10px;
+    position: absolute;
+    left: 15%;
+    text-align: center;
+    top: 40%;
+    width: 20%;
+}
+
+.comprar a{
+    background-color: rgb(255, 41, 158);
+    color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+main {
+    margin: 0px auto;
+    width: 80%;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main h1::after,
+main:after {
+  background-color: rgb(255, 41, 158);
+  display: block;
+  content: " ";
+  height: 2px;
+  width: 30%;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+
+.cubos {
+    overflow-y: auto;
+}
+
+.cubos .cubo {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    width: 33%;
+}
+  
+.cubos .cubo img {
+    width: 50%;
+}
+
+.cara {
+    margin: 30px auto;
+    overflow-y: auto;
+    width: 70%;
+}
+  
+.cara img {
+    float: left;
+    margin-left: 10%;
+    width: 20%;
+    margin-right: 2%;
+}
+  
+.cara div {
+    float: left;
+    margin-top: 20px;
+    text-align: justify;
+    width: 50%;
+}
+
+.cara div::first-letter {
+    border-right: 1px solid rgb(14, 14, 110);
+    border-bottom: 1px solid rgb(14, 14, 110);
+    color: rgb(255, 41, 158);
+    font-size: 2em;
+    font-weight: bolder;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.galeria {
+    clear: both;
+    margin: 20px auto;
+    overflow-y: auto;
+    width: 70%;
+}
+.galeria img {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    background-color: rgb(14, 14, 110);
+    clear: both;
+    color: rgb(255, 41, 158);
+    font-weight: bolder;
+    font-size: 0.8;
+    margin-top: 20px;
+    overflow-y: auto;
+    padding: 20px;
+}
+  
+footer address {
+    float: left;
+    width: 20%;
+}
+  
+footer div {
+    float: left;
+    text-align: center;
+    width: 60%;
+}
+  
+footer section {
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+
+footer img {
+    width: 12%;
+}
